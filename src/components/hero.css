@@ -1,0 +1,40 @@
+/* .hero-info {
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.hero-text {
+    position: relative;
+}
+
+.hero-elmo {
+    position: relative;
+} */
+
+.hero-section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.hero-text {
+    width: 75%;
+    text-align: center;
+}
+
+.hero-elmo {
+    width: 25%;
+}
+
+/* If you want to add some spacing between hero-text and hero-elmo */
+.hero-text {
+    margin-right: 10px; /* Adjust as needed */
+}
