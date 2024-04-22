@@ -2,12 +2,13 @@ import React from 'react'
 import drippedelmo from '../assets/drippedelmo.svg'
 import './hero.css';
 
+
 function Hero() {
     return (
-        <div className='hero-section'>
+        <div className='hero-section' id="particles-js">
             <div className='hero-info'>
                 <div className='hero-text'>
-                    <p>asdfkjasdfjkashfjkl</p>
+                    <p>Hi there, I'm Jason Liang! <br/> A &lt;Rotating Slot&gt; </p>
                 </div>
                 <div className='hero-elmo'>
                     <img src={drippedelmo} alt='Dripped Elmo'></img>
@@ -16,5 +17,6 @@ function Hero() {
         </div>
     )
 }
+
 
 export default Hero
