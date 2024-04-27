@@ -39,3 +39,7 @@
 .hero-text {
     margin-right: 10px; /* Adjust as needed */
 }
+
+#tsparticles {
+    z-index: -999;
+}
