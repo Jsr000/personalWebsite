@@ -25,16 +25,14 @@ export default function ParticlesComp() {
               value: "#ffffff",
             },
           },
-          fullscreen: {
+
+          fullScreen: {
             enable: false,
-          },
-          style: {
-            position: 'absolute',
-            height: '100%',
           },
 
           fpsLimit: 60,
           interactivity: {
+            detect_on: "canvas",
             events: {
               onHover: {
                 enable: true,
@@ -84,7 +82,7 @@ export default function ParticlesComp() {
               density: {
                 enable: true,
               },
-              value: 60,
+              value: 50,
             },
             opacity: {
               value: 0.3,
@@ -103,11 +101,11 @@ export default function ParticlesComp() {
 
     if (init) {
         return (
-          <Particles
-            id="tsparticles"
-            particlesLoaded={particlesLoaded}
-            options={options}
-          />
+            <Particles
+              id="tsparticles"
+              particlesLoaded={particlesLoaded}
+              options={options}
+            />
         );
       }
     
