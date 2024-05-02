@@ -10,7 +10,7 @@ function App() {
     <div className="App">
         <Navbar />
         <Hero />
-        <div className='placeholder'> <HighlightChips name='placeholder Text'/> </div>
+        <div className='placeholder'> <HighlightChips name='TESLA' emoji='💼'/> </div>
     </div>
   );
 }

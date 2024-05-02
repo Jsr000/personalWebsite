@@ -10,4 +10,12 @@
 .chip-content {
     font-size: var(--sub-title-font-size);
     text-align: center;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.chip-emoji {
+    padding-right: 5px;
 }
