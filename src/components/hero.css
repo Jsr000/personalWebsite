@@ -22,13 +22,24 @@
 .hero-info {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50%;
 }
 
 .hero-text {
-    font-size: 20px;
-    width: 75%;
+    font-size: var(--title-font-size);
+    width: 50%;
     text-align: center;
+}
+
+.hero-text p {
+    margin: 5px;
+}
+
+
+.hero-text-2 {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-elmo {

@@ -53,14 +53,15 @@ export default function ParticlesComp() {
             },
           },
           particles: {
-            color: {
-              value: "#000000",
-              animation: {
-                enable: true,
-                speed: 20,
-                sync: true,
-              },
-            },
+            // color: {
+            //   value: "#000000",
+            //   animation: {
+            //     enable: true,
+            //     speed: 20,
+            //     sync: true,
+            //   },
+            // },
+            color: '#000000',
             links: {
               color: "#000000",
               distance: 150,

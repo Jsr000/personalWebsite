@@ -1,0 +1,13 @@
+.highlight-chip {
+    width: 167px;
+    height: 56px;
+    background-color: var(--secondary-blue);
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.chip-content {
+    font-size: var(--sub-title-font-size);
+    text-align: center;
+}

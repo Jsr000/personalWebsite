@@ -12,7 +12,7 @@ function Navbar() {
                         <img className='elmo-icon' src={elmologo} alt='Logo'/>
                     </a>
                 </div>
-                <div className='nav-elements'>
+                <div className='nav-stroke'>
                     <ul id='menu'>
                         <li className='menu-item'><a href='#about'> ABOUT </a></li>
                         <li className='menu-item'><a href='#cv'> CV </a></li>
