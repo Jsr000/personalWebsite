@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.chip-content {
+.text-content {
     font-size: var(--sub-title-font-size);
     text-align: center;
     color: white;
@@ -14,8 +14,4 @@
     align-content: center;
     justify-content: center;
     padding: 15px;
-}
-
-.chip-emoji {
-    padding-right: 5px;
 }
