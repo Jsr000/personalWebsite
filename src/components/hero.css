@@ -13,7 +13,8 @@
 } */
 
 .hero-section {
-    height: 90vh;
+    height: calc(100vh - 100px);
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,7 @@
 
 .hero-info {
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -28,7 +30,6 @@
 
 .hero-text {
     font-size: var(--title-font-size);
-    width: 50%;
     text-align: center;
 }
 

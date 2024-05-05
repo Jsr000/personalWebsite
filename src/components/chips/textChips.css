@@ -1,0 +1,17 @@
+.text-chip {
+    width: 904px;
+    background-color: var(--tertiary-blue);
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-content {
+    font-size: var(--text-font-size);
+    text-align: center;
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+}

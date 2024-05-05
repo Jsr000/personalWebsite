@@ -60,6 +60,7 @@
 .nav-stroke ul li.menu-item a:hover {
     /* font-weight: bold; */
     color: #02CCFE;
+    cursor: pointer;
 }
 
 .nav-stroke ul li.contact-button a {
@@ -73,4 +74,5 @@
     border-radius: 5px;
     background-color: #02CCFE;
     color: white;
+    cursor: pointer;
 }

@@ -3,14 +3,15 @@ import './App.css';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import './variables.css'
-import HighlightChips from './components/highlightChips';
+import About from './components/about';
 
 function App() {
   return (
     <div className="App">
         <Navbar />
         <Hero />
-        <div className='placeholder'> <HighlightChips name='TESLA' emoji='💼'/> </div>
+        <About />
+        <div className='placeholder'></div>
     </div>
   );
 }

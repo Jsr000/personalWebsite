@@ -1,0 +1,21 @@
+.highlight-chip {
+    width: 167px;
+    background-color: var(--secondary-blue);
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.chip-content {
+    font-size: var(--sub-title-font-size);
+    text-align: center;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.chip-emoji {
+    padding-right: 5px;
+}

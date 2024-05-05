@@ -1,0 +1,24 @@
+.about-title {
+    margin: 20px 60% 20px 20%;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: var(--section-font-size);
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.about-content {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.about-image {
+    justify-self: center;
+}
+
+.about-chips-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
