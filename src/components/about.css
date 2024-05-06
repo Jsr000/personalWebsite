@@ -1,6 +1,9 @@
+.about-section {
+    padding: 30px;
+}
+
 .about-title {
-    margin: 20px 60% 20px 20%;
-    text-decoration: underline;
+    margin: 20px 60% 20px 15%;
     text-transform: capitalize;
     font-size: var(--section-font-size);
     color: var(--primary-blue);
@@ -11,6 +14,7 @@
     align-items: center;
     justify-content: center;
     display: grid;
+    grid-gap: 30px;
 }
 
 .about-image {
@@ -20,5 +24,12 @@
 .about-chips-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+    .about-chips-section {
+        display: grid;
+        grid-gap: 10px;
+    }
 }

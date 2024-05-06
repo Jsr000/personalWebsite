@@ -1,5 +1,5 @@
 .text-chip {
-    width: 904px;
+    max-width: 904px;
     background-color: var(--tertiary-blue);
     border-radius: 15px;
     align-content: center;

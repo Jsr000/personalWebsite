@@ -1,5 +1,5 @@
 import React from 'react'
-import drippedelmo from '../assets/drippedelmo.svg'
+import drippedelmo from '../../assets/drippedelmo.svg'
 import './hero.css';
 import ParticlesComp from './particlescomp';
 import VerticalTextSlider from './verticleTextSlider';

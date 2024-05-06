@@ -16,7 +16,8 @@ function Navbar() {
                 <div className='nav-stroke'>
                     <ul id='menu'>
                         <li className='menu-item'>
-                            <Link to="about-title" spy={true} smooth={true} offset={-20} duration={500}>
+                            {/* TODO fix the pixel count to be dynamic */}
+                            <Link to="about-title" spy={true} smooth={true} offset={-50} duration={500}>
                                 ABOUT
                             </Link>
                         </li>

@@ -1,0 +1,98 @@
+.cv-section {
+    padding: 30px;
+}
+
+.cv-title {
+    margin: 20px 60% 20px 15%;
+    text-transform: capitalize;
+    font-size: var(--section-font-size);
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.timeline-line-div {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.timeline-line {
+    position: relative;
+    display: flex;
+}
+
+.timeline-line-solid {
+    position: relative;
+    width: 50%;
+    max-width: 835px;
+    height: 7px;
+    background-color: black;
+}
+
+.timeline-line-dashed {
+    position: relative;
+    width: 10%;
+    max-width: 167px;
+    height: 0px;
+    border-bottom: 7px dotted #555;
+}
+
+.timeline-dot-1 {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
+
+.timeline-dot-2 {
+    position: relative;
+    top: 0;
+    left: calc(167px * 1 + 5px);
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
+
+.timeline-dot-3 {
+    position: relative;
+    top: 0;
+    left: calc(167px * 2 + 5px);
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
+
+.timeline-dot-4 {
+    position: relative;
+    top: 0;
+    left: calc(167px * 3 + 5px);
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
+
+.timeline-dot-5 {
+    position: relative;
+    top: 0;
+    left: calc(167px * 4 + 5px);
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
+
+.timeline-dot-6 {
+    position: relative;
+    top: 0;
+    left: calc(167px * 5 + 5px);
+    width: 5px;
+    height: 7px;
+    background-color: var(--primary-blue);
+    z-index: 1;
+}
