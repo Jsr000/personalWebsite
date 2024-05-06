@@ -10,6 +10,10 @@
     font-weight: bold;
 }
 
+.timeline-section {
+    padding: 30px;
+}
+
 .timeline-line-div {
     justify-content: center;
     display: flex;
@@ -19,6 +23,8 @@
 .timeline-line {
     position: relative;
     display: flex;
+    align-items: center;
+    top: -5px;
 }
 
 .timeline-line-solid {
@@ -39,60 +45,71 @@
 
 .timeline-dot-1 {
     position: absolute;
-    top: 0;
-    left: 5px;
-    width: 5px;
-    height: 7px;
+    left: 74px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
 }
 
 .timeline-dot-2 {
     position: relative;
-    top: 0;
-    left: calc(167px * 1 + 5px);
-    width: 5px;
-    height: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
 }
 
 .timeline-dot-3 {
     position: relative;
-    top: 0;
-    left: calc(167px * 2 + 5px);
-    width: 5px;
-    height: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
 }
 
 .timeline-dot-4 {
     position: relative;
-    top: 0;
-    left: calc(167px * 3 + 5px);
-    width: 5px;
-    height: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
 }
 
 .timeline-dot-5 {
     position: relative;
-    top: 0;
-    left: calc(167px * 4 + 5px);
-    width: 5px;
-    height: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
 }
 
 .timeline-dot-6 {
     position: relative;
-    top: 0;
-    left: calc(167px * 5 + 5px);
-    width: 5px;
-    height: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
     background-color: var(--primary-blue);
-    z-index: 1;
+    z-index: 3;
+}
+
+.timeline-dot-inner-up {
+    position: relative;
+    height: 75px;
+    border-right: 4px dashed #555;
+    z-index: 2;
+    transform: translate(-35%, -100%)
+}
+
+.timeline-dot-inner-down {
+    position: relative;
+    height: 75px;
+    border-right: 4px dashed #555;
+    z-index: 2;
+    transform: translate(-35%, 15%)
 }
