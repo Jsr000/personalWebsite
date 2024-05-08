@@ -1,0 +1,39 @@
+.contact-section {
+    padding: 30px;
+}
+
+.contact-title {
+    margin: 20px 60% 20px 15%;
+    text-transform: capitalize;
+    font-size: var(--section-font-size);
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.contact-content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.contact-text {
+    font-size: var(--title-font-size);
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.contact-icons {
+    display: flex;
+}
+
+.contact-icons img {
+    padding: 35px;
+}   
+
+.contact-icon-row1,
+.contact-icon-row2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

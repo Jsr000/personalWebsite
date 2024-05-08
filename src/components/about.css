@@ -21,6 +21,11 @@
     justify-self: center;
 }
 
+.spinning-image {
+    transition: transform 1s ease;
+    transform: rotateY(360deg);
+}
+
 .about-chips-section {
     display: flex;
     flex-wrap: wrap;

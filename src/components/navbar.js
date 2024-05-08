@@ -16,14 +16,25 @@ function Navbar() {
                 <div className='nav-stroke'>
                     <ul id='menu'>
                         <li className='menu-item'>
-                            {/* TODO fix the pixel count to be dynamic */}
-                            <Link to="about-title" spy={true} smooth={true} offset={-50} duration={500}>
+                            <Link to="about-title" spy={true} smooth={true} offset={-50} duration={400}>
                                 ABOUT
                             </Link>
                         </li>
-                        <li className='menu-item'><a href='#cv'> CV </a></li>
-                        <li className='menu-item'><a href='#hobbies'>HOBBIES</a></li>
-                        <li className='contact-button'><a href='#contact'>CONTACT</a></li>
+                        <li className='menu-item'>
+                            <Link to="cv-title" spy={true} smooth={true} offset={-50} duration={800}> 
+                                CV 
+                            </Link>
+                        </li>
+                        <li className='menu-item'>
+                            <Link to="hobbies-title" spy={true} smooth={true} offset={-50} duration={1200}> 
+                                HOBBIES
+                            </Link>
+                        </li>
+                        <li className='contact-button'>
+                            <Link to="contact-title" spy={true} smooth={true} offset={-50} duration={1200}>
+                                CONTACT
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
