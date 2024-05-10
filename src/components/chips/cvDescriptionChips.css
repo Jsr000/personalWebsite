@@ -27,13 +27,6 @@
     padding: 15px;
 }
 
-@media (max-width: 1080px) {
-    .cv-description-chips-default {
-        /* display: none; */
-    }
-    
-}
-
 .cv-description-chips {
     width: 904px;
     height: 313px;
@@ -55,7 +48,6 @@
     align-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
 .cv-description-content > * {
@@ -79,4 +71,14 @@
 .cv-description-chips-text {
     margin: 35px;
     align-content: center;
+}
+
+@media (max-width: 924px) {
+    .cv-description-chips-default {
+        display: none;
+    }
+
+    .cv-description-chips {
+        display: none;
+    }
 }

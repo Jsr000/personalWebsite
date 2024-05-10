@@ -1,12 +1,13 @@
 import './cv.css';
 import React, { useState, useEffect } from 'react';
-import UBCLogo from '../assets/Icons/universityofbc_logo.jpg';
-import GeoComplyLogo from '../assets/Icons/geocomply_logo.jpg';
-import VoronoiLogo from '../assets/Icons/voronoi_logo.jpg';
-import BlackBerryLogo from '../assets/Icons/blackberry_logo.jpg';
-import TeslaLogo from '../assets/Icons/tesla_motors_logo.jpg';
-import { UBCWriteUp, GeoComplyWriteUp, VoronoiWriteUp, BlackBerryWriteUp, TeslaWriteUp} from './cvWriteUps';
-import CvDescriptionChips from './chips/cvDescriptionChips';
+import UBCLogo from '../../assets/Icons/universityofbc_logo.jpg';
+import GeoComplyLogo from '../../assets/Icons/geocomply_logo.jpg';
+import VoronoiLogo from '../../assets/Icons/voronoi_logo.jpg';
+import BlackBerryLogo from '../../assets/Icons/blackberry_logo.jpg';
+import TeslaLogo from '../../assets/Icons/tesla_motors_logo.jpg';
+import { UBCWriteUp, GeoComplyWriteUp, VoronoiWriteUp, BlackBerryWriteUp, TeslaWriteUp} from '../cvWriteUps';
+import CvDescriptionChips from '../chips/cvDescriptionChips';
+import Accordion from '../chips/accordionChips.js';
 
 export default function Cv() {
     const [referenceWidth, setReferenceWidth] = useState(200);
@@ -82,6 +83,12 @@ export default function Cv() {
             </div>
             <div className='timeline-selected-text'>
                 <CvDescriptionChips image={selectedCVItem.image} text={selectedCVItem.text} />
+            </div>
+            <div className='cv-accordion-section'>
+                <Accordion image={TeslaLogo} content={TeslaWriteUp} />
+                <Accordion image={BlackBerryLogo} content={BlackBerryWriteUp} />
+                <Accordion image={VoronoiLogo} content={VoronoiWriteUp} />
+                <Accordion image={GeoComplyLogo} content={GeoComplyWriteUp} />
             </div>
             <div className='cv-footer'>
                 <div className='cv-footer-text'>

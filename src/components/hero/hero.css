@@ -1,6 +1,5 @@
 .hero-section {
     height: calc(100vh - 100px);
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +29,11 @@
 }
 
 .hero-elmo {
-    width: 25%;
+    width: auto;
 }
 
-/* If you want to add some spacing between hero-text and hero-elmo */
 .hero-text {
-    margin-right: 10px; /* Adjust as needed */
+    margin-right: 10px;
 }
 
 #tsparticles canvas{

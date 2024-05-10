@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './cvDescriptionChips.css';
 
 const CvDescriptionChips = ({ image, text }) => {
@@ -29,11 +28,6 @@ const CvDescriptionChips = ({ image, text }) => {
             </div>
         </div>
     );
-};
-
-CvDescriptionChips.propTypes = {
-    image: PropTypes.any,
-    text: PropTypes.string,
 };
 
 export default CvDescriptionChips;

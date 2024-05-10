@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 924px) {
+    .timeline-section {
+        display: none;
+    }
+}
+
 .timeline-section {
     padding-top: 160px;
     padding-bottom: 180px;
@@ -122,6 +128,7 @@
     max-height: 65px;
     z-index: 4;
     transform: translate(-37.5%, -325%);
+    border-radius: 5%;
 }
 
 .timeline-image-down {
@@ -131,6 +138,7 @@
     max-height: 65px;
     z-index: 4;
     transform: translate(-37.5%, 15%);
+    border-radius: 5%;
 }
 
 .timeline-image-selected {
@@ -153,4 +161,9 @@
     font-size: var(--text-font-size);
     text-decoration: none;
     color: black;
+}
+
+.cv-accordion-section {
+    justify-items: center;
+    display: grid;
 }

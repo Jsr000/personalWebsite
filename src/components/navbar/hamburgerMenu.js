@@ -1,5 +1,5 @@
 import React from 'react';
-import elmologo from '../assets/elmologo.svg'
+import elmologo from '../../assets/elmologo.svg'
 import './hamburgerMenu.css';
 import { Link, animateScroll} from 'react-scroll';
 

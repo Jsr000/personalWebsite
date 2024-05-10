@@ -1,8 +1,8 @@
 import React from 'react'
-import elmologo from '../assets/elmologo.svg'
+import elmologo from '../../assets/elmologo.svg'
 import './navbar.css';
 import { Link, animateScroll} from 'react-scroll';
-import HamburgerMenu from './hamburgerMenu';
+import HamburgerMenu from './hamburgerMenu.js';
 
 function Navbar() {
 

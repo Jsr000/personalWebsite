@@ -1,4 +1,4 @@
-@media (min-width: 924px){
+@media (min-width: 925px){
     .hamburger-menu-container {
       display: none;
     }
@@ -8,9 +8,11 @@
     position: fixed;
     float: right;
     width: 100%;
-    height: 90px;
-    justify-content: right;
+    height: 100px;
     font-size: var(--text-font-size);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 100;
 }
   
 .elmo-logo {
@@ -85,12 +87,13 @@
 }
 
 #menu-bar{
-	z-index: 2;	
+	z-index: 2;
+    font-size: var(--sub-title-font-size);
 }
 
 .change-bg{
-	width: 550px;
-	height: 540px;
+	width: 600px;
+	height: 600px;
 	transform: translate(60%, -25%);
 }
 
