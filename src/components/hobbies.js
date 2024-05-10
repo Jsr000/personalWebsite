@@ -19,7 +19,6 @@ const hobby5 = `Film Photography Lorem ipsum dolor sit amet, consectetur adipisc
     Also add a section about the cameras that I use + film`;
 
 
-
 export default function Hobbies() {
 
     return(

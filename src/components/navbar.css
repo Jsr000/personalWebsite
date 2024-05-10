@@ -1,14 +1,30 @@
+.navbar-div {
+  height: 10vh;
+  max-height: 100px;
+}
+
 .navbar {
     display: block;
     width: 100%;
     height: 10vh;
     max-height: 100px;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+}
+
+@media (max-width: 924px){
+  .navbar {
+    display: none;
+  }
 }
 
 .elmo-logo {
     float: left;
     margin-top: 20px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .nav-stroke ul li.menu-item,
@@ -20,6 +36,7 @@
 .nav-stroke ul li.menu-item{
   position: relative;
 }
+
 .nav-stroke ul li.menu-item:after{
   position: absolute;
   bottom: 0;
@@ -32,6 +49,7 @@
   background: var(--secondary-blue);
   height: 2px;
 }
+
 .nav-stroke ul li.menu-item:hover:after {
   width: 100%;
 }
@@ -58,7 +76,6 @@
 }
 
 .nav-stroke ul li.menu-item a:hover {
-    /* font-weight: bold; */
     color: #02CCFE;
     cursor: pointer;
 }

@@ -3,7 +3,7 @@
 }
 
 .about-title {
-    margin: 20px 60% 20px 15%;
+    margin: 20px 60% 20px 20%;
     text-transform: capitalize;
     font-size: var(--section-font-size);
     color: var(--primary-blue);
@@ -13,7 +13,8 @@
 .about-content {
     align-items: center;
     justify-content: center;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 30px;
 }
 
@@ -26,10 +27,15 @@
     transform: rotateY(360deg);
 }
 
-.about-chips-section {
+/* .about-chips-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+} */
+
+.about-text-chip {
+    max-width: 600px;
+    background-color: white;
 }
 
 @media (max-width: 600px) {

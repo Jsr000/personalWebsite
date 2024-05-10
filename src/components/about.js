@@ -2,15 +2,8 @@ import './about.css';
 import React, { useState } from 'react';
 import selfImage1 from '../assets/selfimage1.svg';
 import selfImage2 from '../assets/selfimage2.svg';
-import HighlightChips from './chips/highlightChips';
 import TextChip from './chips/textChips';
-
-
-const variable = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a leo tempus, euismod purus vitae, blandit lectus. Cras ut metus lectus. Vestibulum eget nulla lacinia, imperdiet tellus nec, lobortis quam.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a leo tempus, euismod purus vitae, blandit lectus. Cras ut metus lectus. Vestibulum eget nulla lacinia, imperdiet tellus nec, lobortis quam.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a leo tempus, euismod purus vitae, blandit lectus. Cras ut metus lectus. Vestibulum eget nulla lacinia, imperdiet tellus nec, lobortis quam.`;
+import { IntroWriteUp } from './cvWriteUps';
 
 export default function About() {
     const [currentImage, setCurrentImage] = useState(selfImage1);
@@ -31,12 +24,7 @@ export default function About() {
             <div className='about-title'>ABOUT</div>
             <div className='about-content'>
                 <img src={currentImage} alt='Self' className='about-image' id='about-image-id' onClick={handleImageClick}></img>
-                <TextChip text={variable} />
-                <div className='about-chips-section'>
-                    <HighlightChips name='TESLA' emoji='💼'/>
-                    <HighlightChips name='TESLA' emoji='💼'/>
-                    <HighlightChips name='TESLA' emoji='💼'/> 
-                </div>
+                <TextChip text={IntroWriteUp}/>
             </div>
         </div>
     );

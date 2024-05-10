@@ -3,7 +3,7 @@
 }
 
 .contact-title {
-    margin: 20px 60% 20px 15%;
+    margin: 20px 60% 20px 20%;
     text-transform: capitalize;
     font-size: var(--section-font-size);
     color: var(--primary-blue);

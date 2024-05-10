@@ -10,10 +10,10 @@ export default function VerticalTextSlider() {
                         Product Manager
                     </div>
                     <div className="slider-text-2">
-                        Joanne's boyfriend
+                        Film Photographer
                     </div>
                     <div className="slider-text-3">
-                        Father of 2
+                        Outdoors Enthusiast
                     </div>
                 </div>
             </div>

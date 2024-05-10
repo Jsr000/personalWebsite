@@ -29,7 +29,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className='contact-footer'>
-                    <div className='contact-footer-text'>Made with ❤️ by Jason Liang</div>
+                    <div className='contact-footer-text'>Made with &lt;3 by Jason Liang</div>
                 </div>
             </div>
         </div>

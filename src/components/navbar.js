@@ -1,37 +1,46 @@
 import React from 'react'
 import elmologo from '../assets/elmologo.svg'
 import './navbar.css';
-import { Link } from 'react-scroll';
+import { Link, animateScroll} from 'react-scroll';
+import HamburgerMenu from './hamburgerMenu';
 
 function Navbar() {
+
+    const scrollToTopOptions = {
+        duration: 500,
+        smooth: true,
+    };
+
+    const scrollToTop = () => {
+        animateScroll.scrollToTop(scrollToTopOptions);
+    };
+    
   return (
     <div className='navbar-div'>
         <navbar className='navbar'>
             <div className='navbar-container'>
                 <div className='elmo-logo' id='home'>
-                    <Link to="home" spy={true} smooth={true} offset={-20} duration={500}>
-                        <img className='elmo-icon' src={elmologo} alt='Logo'/>
-                    </Link>
+                    <img className='elmo-icon' src={elmologo} alt='Logo' onClick={scrollToTop}/>
                 </div>
                 <div className='nav-stroke'>
                     <ul id='menu'>
                         <li className='menu-item'>
-                            <Link to="about-title" spy={true} smooth={true} offset={-50} duration={400}>
+                            <Link to="about-title" spy={true} smooth={true} offset={-150} duration={500}>
                                 ABOUT
                             </Link>
                         </li>
                         <li className='menu-item'>
-                            <Link to="cv-title" spy={true} smooth={true} offset={-50} duration={800}> 
+                            <Link to="cv-title" spy={true} smooth={true} offset={-150} duration={500}> 
                                 CV 
                             </Link>
                         </li>
                         <li className='menu-item'>
-                            <Link to="hobbies-title" spy={true} smooth={true} offset={-50} duration={1200}> 
+                            <Link to="hobbies-title" spy={true} smooth={true} offset={-150} duration={500}> 
                                 HOBBIES
                             </Link>
                         </li>
                         <li className='contact-button'>
-                            <Link to="contact-title" spy={true} smooth={true} offset={-50} duration={1200}>
+                            <Link to="contact-title" spy={true} smooth={true} offset={-150} duration={500}>
                                 CONTACT
                             </Link>
                         </li>
@@ -39,6 +48,7 @@ function Navbar() {
                 </div>
             </div>
         </navbar>
+        <HamburgerMenu />
     </div>
   )
 }
