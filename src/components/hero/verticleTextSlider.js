@@ -13,7 +13,7 @@ export default function VerticalTextSlider() {
                         Film Photographer
                     </div>
                     <div className="slider-text-3">
-                        Outdoors Enthusiast
+                        Elmo Enthusiast
                     </div>
                 </div>
             </div>

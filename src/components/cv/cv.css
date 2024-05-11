@@ -3,7 +3,9 @@
 }
 
 .cv-title {
-    margin: 20px 60% 20px 20%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
     text-transform: capitalize;
     font-size: var(--section-font-size);
     color: var(--primary-blue);
@@ -166,4 +168,10 @@
 .cv-accordion-section {
     justify-items: center;
     display: grid;
+}
+
+@media (min-width: 925px) {
+    .cv-accordion-section {
+      display: none;
+    }
 }

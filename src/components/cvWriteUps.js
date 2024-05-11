@@ -9,16 +9,45 @@ const IntroWriteUp = {
     paragraph3: `Feel free to reach out! You can find my contact information in the footer, I'm happy to chat!`,
 };
 
+// Hobbies wripte up using textChip component
+
+const hobby1 = {
+    subtitle: `Film Phtography:`,
+    paragraph1: `I'm passionate about film photography, carrying my Canon FTb everywhere to capture live moments and adventures!
+    There's something super magical about shooting on film and preserving memories in a physical medium. 📷🎞️`,
+};
+
+
+const hobby2 = {
+    subtitle: `Snowboarding:`,
+    paragraph1: `When winter arrives, you'll find me on the slopes, carving through fresh powder on my snowboard. 
+    Snowboarding is not just a hobby for me; it's a thrilling adventure that I eagerly anticipate each season. 🏂❄️🏔️`,
+};
+
+const hobby3 = {
+    subtitle: `Keyboard Enthusiast:`,
+    paragraph1: `I am a huge fan of mechanical keyboards and have set out to build my own keyboard from scratch! I love 
+    the customizability and the unique feel of each switch. I am currently using a 98% layout rekt-1800 gateron oil king switches! 🛠️⌨️🔧`,
+};
+
+const hobby4 = {
+    subtitle: `Music Events:`,
+    paragraph1: `I absoluytely love music, especially electronic music, where you will find me attending music festivals and live events on my spare time! Particularly, I listen to a lot of dubstep,
+    drum and bass, and melotic EDM. If you're interested in what I'm listening to, check out my Spotify playlists! 🎧🎵🕺`,
+};
+
 //Experience write ups use cvDescrpitionChip component
 const UBCWriteUp = {
     jobTitle: `Combined Major in Business and Computer Science (BUCS)`,
-    companyLocation: `University of British Columbia | Vancouver, BC`,
+    company: `University of British Columbia`,
+    location: `Vancouver, BC`,
     duration: `Sep 2020 - Present (Expected Graduation: May 2024)`,
 };
 
 const GeoComplyWriteUp = {
     jobTitle: 'Projects and Process Manager Intern',
-    companyLocation: 'GeoComply | Vancouver, BC',
+    company: 'GeoComply',
+    location: 'Vancouver, BC',
     duration: 'Jun 2022 - Sep 2022',
     bullets: [
         'Created weekly progress reports on 35 projects across the organization to identify bottlenecks for top executives',
@@ -29,7 +58,8 @@ const GeoComplyWriteUp = {
 
 const VoronoiWriteUp = {
     jobTitle: 'Software Developer Intern',
-    companyLocation: 'Voronoi Health Analytics | Vancouver, BC',
+    company: 'Voronoi Health Analytics', 
+    location: 'Vancouver, BC',
     duration: 'Sep 2022 - Dec 2022',
     bullets: [
         'Streamlined software usability for users by adding additional error handling and consistent UI functionalities using Qt',
@@ -40,7 +70,8 @@ const VoronoiWriteUp = {
 
 const BlackBerryWriteUp = {
     jobTitle: 'Technical Project Manager Intern',
-    companyLocation: 'BlackBerry | Mississauga, ON',
+    company: 'BlackBerry',
+    location: 'Mississauga, ON',
     duration: 'May 2023 - Sep 2023',
     bullets: [
         'Met 100% of service level targets by eliminating scope creep in projects and correctly defining requirements and timelines',
@@ -51,7 +82,8 @@ const BlackBerryWriteUp = {
 
 const TeslaWriteUp = {
     jobTitle: 'Technical Product Manager Intern',
-    companyLocation: 'Tesla | Fremont, CA',
+    company: 'Tesla',
+    location: 'Fremont, CA',
     duration: 'Sep 2023 - Mar 2024',
     bullets: [
         'Successfully launched an internal headcount planning tool for 35,000+ employees to optimize resource allocation and planning',
@@ -61,12 +93,15 @@ const TeslaWriteUp = {
     ],
 };
 
-
 export {
     IntroWriteUp,
     UBCWriteUp,
     GeoComplyWriteUp,
     VoronoiWriteUp,
     BlackBerryWriteUp,
-    TeslaWriteUp
+    TeslaWriteUp,
+    hobby1,
+    hobby2,
+    hobby3,
+    hobby4
 };

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './accordionChips.css';
+import arrowDownExpand from '../../assets/accordionExpandCollapse.svg';
 
 const Accordion = ({image, content}) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -12,15 +13,18 @@ const Accordion = ({image, content}) => {
     <div className="accordion-container">
         <div className="accordion-item">
           <div className={`accordion-title ${activeIndex === 1 ? 'active' : ''}`} onClick={() => handleClick()}>
-            {image ? <img id='accordion-img' src={image} alt={content.title} /> : null}
-            <div className='accordion-title-section'>
-                {content.jobTitle ? <h3 id='accordion-title'>{content.jobTitle}</h3> : null}
-                {content.subtitle ? <p id='accordion-subtitle'>{content.subtitle}</p> : null}
+            <span className='accordion-span'>
+                {image ? <img id='accordion-img' src={image} alt={content.title} /> : null}
+                <div className='accordion-title-section'>
+                    {content.jobTitle ? <h3 id='accordion-title-inner'>{content.jobTitle}</h3> : null}
+                    {content.company && content.location ? <p id='accordion-company-location'>{content.company} | {content.location}</p> : null}
+                </div>
+            </span>
+            <div className={`accordion-line ${activeIndex === 1 ? 'active' : ''}`}>
+                <img id='accordion-expand-icon' src={arrowDownExpand} alt='Expand' />
             </div>
-            <div className='accordion-line'></div>
           </div>
           <div className={`accordion-content ${activeIndex === 1 ? 'active' : ''}`}>
-                {content.companyLocation ? <p id='accordion-company-location'>{content.companyLocation}</p> : null}
                 {content.duration ? <p id='accordion-duration'>{content.duration}</p> : null}
                 <ul>
                     {content.bullets ? content.bullets.map((bullet, index) => (

@@ -7,9 +7,12 @@
 
 .text-content {
     font-size: var(--text-font-size);
-    /* text-align: center; */
     color: black;
     align-content: center;
     justify-content: center;
     padding: 15px;
+}
+
+#text-subtitle {
+    font-weight: bold;
 }

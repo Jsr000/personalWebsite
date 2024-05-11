@@ -3,7 +3,9 @@
 }
 
 .about-title {
-    margin: 20px 60% 20px 20%;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
     text-transform: capitalize;
     font-size: var(--section-font-size);
     color: var(--primary-blue);

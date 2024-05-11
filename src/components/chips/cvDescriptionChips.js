@@ -17,7 +17,7 @@ const CvDescriptionChips = ({ image, text }) => {
                 {image && <img src={image} alt="Timeline" className="cv-description-chips-image" />}
                 <div className={`cv-description-content ${text.className ? text.className : ''}`}>
                     {text.jobTitle ? <h3>{text.jobTitle}</h3> : null}
-                    {text.companyLocation ? <p id='company-location'>{text.companyLocation}</p> : null}
+                    {text.location && text.company ? <p id='company-location'>{text.company} | {text.location}</p> : null}
                     {text.duration ? <p id='duration'>{text.duration}</p> : null}
                     <ul>
                         {text.bullets ? text.bullets.map((bullet, index) => (
