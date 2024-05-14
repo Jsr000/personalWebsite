@@ -32,8 +32,8 @@ const hobby3 = {
 
 const hobby4 = {
     subtitle: `Music Events:`,
-    paragraph1: `I absoluytely love music, especially electronic music, where you will find me attending music festivals and live events on my spare time! Particularly, I listen to a lot of dubstep,
-    drum and bass, and melotic EDM. If you're interested in what I'm listening to, check out my Spotify playlists! 🎧🎵🕺`,
+    paragraph1: `I love music, especially electronic music, where you will find me attending music festivals and live events on my spare time! Particularly, I listen to a lot of dubstep,
+    drum and bass, and melodic EDM. If you're interested in what I'm listening to, check out my Spotify playlists! 🎧🎵🕺`,
 };
 
 //Experience write ups use cvDescrpitionChip component
@@ -41,7 +41,7 @@ const UBCWriteUp = {
     jobTitle: `Combined Major in Business and Computer Science (BUCS)`,
     company: `University of British Columbia`,
     location: `Vancouver, BC`,
-    duration: `Sep 2020 - Present (Expected Graduation: May 2024)`,
+    duration: `Sep 2020 - Present (Expected Graduation: May 2025)`,
 };
 
 const GeoComplyWriteUp = {
