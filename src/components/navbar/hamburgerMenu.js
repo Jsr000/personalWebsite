@@ -31,7 +31,7 @@ const HamburgerMenu = () => {
                     <div id="bar2" className="bar"></div>
                     <div id="bar3" className="bar"></div>
                 </div>
-                <ul class="nav" id="nav">
+                <ul className="nav" id="nav">
                     <li className='menu-hamburger-item'>
                         <Link to="about-title" onClick={onClickMenu} spy={true} smooth={true} offset={-150} duration={500}>
                             ABOUT

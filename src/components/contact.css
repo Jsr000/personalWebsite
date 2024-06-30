@@ -19,7 +19,7 @@
 }
 
 .contact-text {
-    font-size: var(--title-font-size);
+    font-size: var(--sub-title-font-size);
     text-align: center;
     color: black;
     padding: 15px;

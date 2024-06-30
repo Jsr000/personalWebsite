@@ -85,6 +85,7 @@
     border-radius: 5px;
     color: #02CCFE;
     text-decoration: none;
+    transition: all .5s;
 }
 
 .nav-stroke ul li.contact-button a:hover {
@@ -92,4 +93,5 @@
     background-color: #02CCFE;
     color: white;
     cursor: pointer;
+    transition: all .5s;
 }

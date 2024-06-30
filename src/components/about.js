@@ -1,7 +1,7 @@
 import './about.css';
 import React, { useState } from 'react';
-import selfImage1 from '../assets/selfimage1.svg';
-import selfImage2 from '../assets/selfimage2.svg';
+import selfImage1 from '../assets/selfimage1.jpg';
+import selfImage2 from '../assets/selfimage2.jpg';
 import TextChip from './chips/textChips';
 import { IntroWriteUp } from './cvWriteUps';
 

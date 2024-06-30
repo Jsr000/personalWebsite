@@ -13,8 +13,8 @@ export default function Cv() {
     const [referenceWidth, setReferenceWidth] = useState(200);
 
     const [selectedCVItem, setImageAndText] = useState({
-        image: null,
-        text: null});
+        image: TeslaLogo,
+        text: TeslaWriteUp});
 
     const handleImageClick = (image, writeUp) => {
         setImageAndText({
@@ -81,6 +81,7 @@ export default function Cv() {
                     <div className='timeline-line-dashed' id='dashed-line'></div>
                 </div>
             </div>
+            <div className='timeline-selected-title' id='timeline-selected-title'>Click on the logos to learn more about my experiences!</div>
             <div className='timeline-selected-text'>
                 <CvDescriptionChips image={selectedCVItem.image} text={selectedCVItem.text} />
             </div>

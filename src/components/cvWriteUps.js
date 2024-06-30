@@ -12,7 +12,7 @@ const IntroWriteUp = {
 // Hobbies wripte up using textChip component
 
 const hobby1 = {
-    subtitle: `Film Phtography:`,
+    subtitle: `Film Photography:`,
     paragraph1: `I'm passionate about film photography, carrying my Canon FTb everywhere to capture live moments and adventures!
     There's something super magical about shooting on film and preserving memories in a physical medium. 📷🎞️`,
 };
@@ -27,7 +27,7 @@ const hobby2 = {
 const hobby3 = {
     subtitle: `Keyboard Enthusiast:`,
     paragraph1: `I am a huge fan of mechanical keyboards and have set out to build my own keyboard from scratch! I love 
-    the customizability and the unique feel of each switch. I am currently using a 98% layout rekt-1800 gateron oil king switches! 🛠️⌨️🔧`,
+    the customizability and the unique feel of each switch. I am currently using a 98% layout Rekt-1800 Gateron Oil King switches! 🛠️⌨️🔧`,
 };
 
 const hobby4 = {
@@ -87,7 +87,7 @@ const TeslaWriteUp = {
     duration: 'Sep 2023 - Mar 2024',
     bullets: [
         'Successfully launched an internal headcount planning tool for 35,000+ employees to optimize resource allocation and planning',
-        'Spearheaded Tesla’s headcount planning tool by defining all user requirements through user interviews and usability research',
+        'Spearheaded Tesla\'s headcount planning tool by defining all user requirements through user interviews and usability research',
         'Boosted organization efficiency by 73% by optimizing internal knowledge hubs for enhanced searchability and navigability',
         'Strategically orchestrated and executed an engineering all-hands meeting for over 1,000+ participants'
     ],
