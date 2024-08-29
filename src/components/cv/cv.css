@@ -111,6 +111,10 @@
     z-index: 3;
 }
 
+.timeline-dot-6:hover {
+    cursor: pointer;
+}
+
 .timeline-dot-inner-up {
     position: relative;
     height: 75px;
@@ -124,7 +128,7 @@
     height: 75px;
     border-right: 4px dashed #555;
     z-index: 2;
-    transform: translate(-35%, 15%);
+    transform: translate(-35%, 17.5%);
 }
 
 .timeline-image-up {

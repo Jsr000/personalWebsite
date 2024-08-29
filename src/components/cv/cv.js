@@ -5,7 +5,8 @@ import GeoComplyLogo from '../../assets/Icons/geocomply_logo.jpg';
 import VoronoiLogo from '../../assets/Icons/voronoi_logo.jpg';
 import BlackBerryLogo from '../../assets/Icons/blackberry_logo.jpg';
 import TeslaLogo from '../../assets/Icons/tesla_motors_logo.jpg';
-import { UBCWriteUp, GeoComplyWriteUp, VoronoiWriteUp, BlackBerryWriteUp, TeslaWriteUp} from '../cvWriteUps';
+import EasterEgg from '../../assets/Icons/EasterEgg_logo.jpg';
+import { UBCWriteUp, GeoComplyWriteUp, VoronoiWriteUp, BlackBerryWriteUp, TeslaWriteUp, EasterEggWriteUp} from '../cvWriteUps';
 import CvDescriptionChips from '../chips/cvDescriptionChips';
 import Accordion from '../chips/accordionChips.js';
 
@@ -75,7 +76,7 @@ export default function Cv() {
                             <img className={`timeline-image-up ${selectedCVItem.image === TeslaLogo ? 'timeline-image-selected' : ''}`}
                                 id='timeline-image-5' src={TeslaLogo} alt='Tesla' onClick={() => handleImageClick(TeslaLogo, TeslaWriteUp)}/>
                         </div>
-                        <div className='timeline-dot-6' style={{left: `${referenceWidth }px`}}></div>
+                        <div className='timeline-dot-6' style={{left: `${referenceWidth }px`}} onClick={() => handleImageClick(EasterEgg, EasterEggWriteUp)}></div>
                     </div>
                     <div className='timeline-line-solid' id='solid-line'></div>
                     <div className='timeline-line-dashed' id='dashed-line'></div>

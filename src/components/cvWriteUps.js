@@ -93,6 +93,11 @@ const TeslaWriteUp = {
     ],
 };
 
+const EasterEggWriteUp = {
+    jobTitle: 'Here is a photo of me eating waves for breakfast!',
+    duration: 'Will be posting more of my experiences and adventures on this page so stay tuned!',
+};
+
 export {
     IntroWriteUp,
     UBCWriteUp,
@@ -100,6 +105,7 @@ export {
     VoronoiWriteUp,
     BlackBerryWriteUp,
     TeslaWriteUp,
+    EasterEggWriteUp,
     hobby1,
     hobby2,
     hobby3,

@@ -39,3 +39,35 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.hippo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hippo-icon {
+    z-index: 2;
+}
+
+.hippo-icon:hover + .honk-text {
+    z-index: 1;
+    transition: 0.4s;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 95px;
+    transform: rotate(0deg);
+    padding: 0px !important;
+}
+
+.honk-text {
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s;
+    margin-top: 32px;
+    margin-left: 95px;
+    padding: 0px !important;
+    transform: rotate(90deg);
+    transform-origin: left top;
+}

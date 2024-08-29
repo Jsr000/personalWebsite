@@ -3,6 +3,7 @@ import hippoicon from '../assets/hippoicon.svg';
 import linkedinicon from '../assets/linkedinicon.svg';
 import spotifyicon from '../assets/spotifyicon.svg';
 import mailicon from '../assets/mailicon.svg';
+import honktext from '../assets/honktext.svg';
 
 export default function Contact() {
     return(
@@ -22,7 +23,10 @@ export default function Contact() {
                         </a>
                     </div>
                     <div className='contact-icon-row2'>
-                        <img src={hippoicon} alt='Hippo Icon'></img>
+                        <div className='hippo-section'>
+                            <img className='hippo-icon' src={hippoicon} alt='Hippo Icon'></img>
+                            <img className='honk-text' src={honktext} alt='Honk Text'></img>
+                        </div>
                         <a href='https://open.spotify.com/user/aeswpj65kv9ul8bn9mu0lg9hk?si=5a046b81dcdd480d'>
                             <img src={spotifyicon} alt='Spotify Icon'></img>
                         </a>
