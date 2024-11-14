@@ -24,3 +24,6 @@ yarn-error.log*
 
 # esling config file
 eslint.config.mjs
+
+# local env file
+.env
